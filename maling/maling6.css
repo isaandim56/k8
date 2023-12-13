@@ -1,0 +1,40 @@
+/* Reset CSS */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url('img/blek.webp'); /* Ganti 'nama_gambar.jpg' dengan nama gambar yang sesuai */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Warna teks pada latar belakang bergambar */
+}
+
+h1 {
+    color: #e44d26; /* Warna judul tema gelap */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #ddd; /* Warna teks pada latar belakang bergambar */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Add your additional styles here */
